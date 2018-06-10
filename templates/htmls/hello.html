@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><h1><font color="red" face="微软雅黑" size="7">Hello</font></h1></center>
+<ol>
+    {% for poem in poem %}
+    <li><font color="aqua">{{ poem.name }}</font>  <font color="blue">{{ poem.auth }}</font></li>
+    {% endfor %}
+</ol>
+
+</body>
+</html>
